@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NW Windspinners - Container Delivery</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Import Inter font and ensure smooth scrolling for navigation */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif; 
+            scroll-behavior: smooth;
+        }
+        /* Custom styling for a clean, modern card effect */
+        .container-card {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .container-card:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 1. TOP CONTACT INFORMATION BAR (Mandatory Requirement) -->
+    <div class="bg-blue-900 text-white p-2 text-center text-sm md:flex md:justify-center md:space-x-8">
+        <span class="mb-1 md:mb-0">Call Today: <a href="tel:(509) 863-7580" class="font-bold hover:underline">(509) 863-7580</a></span>
+        <span class="hidden md:inline">|</span>
+        <span>Email: <a href="mailto:BKBrundage@gmail.com" class="font-bold hover:underline">BKBrundage@gmail.com</a></span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="shadow-lg bg-white sticky top-0 z-20">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-blue-900 tracking-tight">NW WINDSPINNERS</a>
+            <div class="flex space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-blue-700 hover:border-b-2 hover:border-blue-700 pb-1 transition duration-150">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-700 hover:border-b-2 hover:border-blue-700 pb-1 transition duration-150">About Us</a>
+                <a href="#contact-footer" class="text-gray-600 hover:text-blue-700 hover:border-b-2 hover:border-blue-700 pb-1 transition duration-150">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <main id="home">
+        
+        <!-- Hero / Pacific Northwest Map Section (Mandatory Requirement) -->
+        <section class="max-w-7xl mx-auto mt-8 p-4 sm:p-6 lg:p-8">
+            <div class="bg-white rounded-xl container-card p-6 md:p-10">
+                <h2 class="text-4xl font-extrabold text-blue-900 mb-4 text-center">NW Windspinners: Your Pacific Northwest Container Experts</h2>
+                <p class="text-center text-xl text-gray-600 mb-8 max-w-4xl mx-auto">
+                    Reliable shipping container logistics serving Washington, Oregon, Idaho, and Western Montana. Get your quote today!
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <div class="rounded-lg overflow-hidden shadow-xl border-4 border-gray-200">
+                        <img src="/images/states.png"
+                            alt="Map showing the Pacific Northwest service area including major ports and regions."
+                            class="w-full h-auto object-cover">
+                    </div>
+
+                    <div class="rounded-lg overflow-hidden shadow-xl border-4 border-gray-200">
+                        <img src="/images/dad.jpg"
+                            alt="Description of your second image, e.g., A stack of shipping containers at a port."
+                            class="w-full h-auto object-cover">
+                    </div>
+                    
+                </div>
+                </div>
+        </section>
+
+        <!-- 2. CONTAINER TYPES GRID SECTION (2x6 Layout - Mandatory Requirement) -->
+        <section class="max-w-7xl mx-auto mt-12 p-4 sm:p-6 lg:p-8">
+            <h2 class="text-3xl font-bold text-blue-900 mb-10 text-center">Explore Our Container Fleet</h2>
+            
+            <div id="container-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6">
+                </div>
+            
+            <div class="text-center mt-12">
+                <a href="mailto:bkbrundage@gmail.com?subject=Custom%20Quote%20Request%20from%20Website" 
+                class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-blue-700 hover:bg-blue-800 transition duration-300 transform hover:scale-105">
+                    Request a Custom Quote
+                </a>
+            </div>
+        </section>
+
+        <!-- Mock About Section (for navigation) -->
+        <section id="about" class="bg-gray-100 py-16 mt-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">About Us</h2>
+                <p class="text-lg text-gray-600">
+                    NW Windspinners has been a leading provider of reliable container transport. Our commitment to safety and timely delivery makes us the premier choice in the region.
+                </p>
+            </div>
+        </section>
+
+        <section id="Our Operators" class="bg-white-100 py-16 mt-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Our Team</h2>
+                <p class="text-lg text-gray-600">
+                    Meet our friendly team who will ensure a timely and safe delivery of your container.
+                </p>
+                <br>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <div class="rounded-lg overflow-hidden shadow-xl border-4 border-gray-200">
+                        <img src="/images/brandon.jpg"
+                            alt="Brandon, Owner and Driver"
+                            class="w-full h-auto object-cover">
+                            Brandon Brundage: Owner and Operator of NW Windspinners with over 25 years of trucking experience.
+                    </div>
+
+                    <div class="rounded-lg overflow-hidden shadow-xl border-4 border-gray-200">
+                        <img src="/images/bob.jpg"
+                            alt="Second Operator: Bob"
+                            class="w-full h-auto object-cover">
+                            Bob: Driver for NW Windspinners with over 10 years of experience.
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer/Contact Section (for navigation) -->
+    <footer id="contact-footer" class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-2xl font-bold mb-4">Get In Touch</h3>
+            <p class="text-lg mb-2">Email: BKBrundage@gmail.com</p>
+            <p class="text-lg">Phone: (509) 863-7580</p>
+            <p class="text-sm mt-6 text-gray-400">&copy; 2025 NW Windspinners. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        // Data for the 1x5 grid (5 container types)
+        const containerTypes = [
+            { 
+                name: "40ft Standard Dry", 
+                image: "images/40ft-std.png",
+                alt: "Image of a 20ft Standard Dry Shipping Container" 
+            },
+            { 
+                name: "40ft High Cube", 
+                image: "images/40ft-hc.png", 
+                alt: "Image of a 40ft High Cube Shipping Container" 
+            },
+            { 
+                name: "20ft Standard Dry", 
+                image: "images/20ft-std.png", 
+                alt: "Image of a 20ft Open Top Shipping Container" 
+            },
+            { 
+                name: "40ft Side Open", 
+                image: "images/40ft-side.png", 
+                alt: "Image of a 40ft Flat Rack Shipping Container" 
+            },
+        ];
+
+        // Function to dynamically generate the container grid
+        function createContainerGrid() {
+            const grid = document.getElementById('container-grid');
+            if (!grid) {
+                console.error("Container grid element not found.");
+                return;
+            }
+
+            containerTypes.forEach(type => {
+                const item = document.createElement('div');
+                // Styling for the container card
+                item.className = 'container-card bg-white rounded-xl p-4 flex flex-col items-center border border-gray-100 transform transition duration-300 hover:scale-[1.02] cursor-pointer shadow-md';
+                
+                // The image URL now uses the file path from the data array
+                const imageUrl = type.image;
+
+                item.innerHTML = `
+                    <div class="w-full max-w-[150px] h-[150px] flex items-center justify-center mb-3">
+                        <img src="${imageUrl}"
+                                alt="${type.alt}"
+                                class="w-full h-full object-contain"
+                                onerror="this.onerror=null; this.src='https://placehold.co/150x150/EEEEEE/333333?text=Image+Missing';">
+                    </div>
+                    <p class="text-center font-bold text-sm md:text-base text-gray-700 mt-2">${type.name}</p>
+                `;
+                grid.appendChild(item);
+            });
+        }
+
+        // Run the grid creation function once the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', createContainerGrid);
+    </script>
+
+</body>
+</html>
